@@ -1,0 +1,56 @@
+nav{
+    width: 100%;
+    background-color: rgb(44, 62, 80 );
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1{
+    margin-left: 8px;
+    color: white;
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+    margin-right: 8px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(192, 192, 192);
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.btn-navbar{
+    padding: 5px;
+    background-color: #3498DB;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    width: 75px;
+    text-align: center;
+}
+
+.btn-navbar:hover{
+    background-color: #5DADE2;
+    color: white;
+}
+
+nav li{
+    list-style: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.name-user{
+    color: #3498DB;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 5px;
+}
